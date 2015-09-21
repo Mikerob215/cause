@@ -1,4 +1,13 @@
-nav div{	
+<<<<<<< HEAD
+
+=======
+.noodleguy {
+  width: 100%;
+}
+.content{
+
+}
+nav div{
 	padding: 0px;
 	display: inline;
 	float:left;
@@ -23,3 +32,4 @@ nav a{
 	font-weight: bold;
 	font-size: 1.5rem;
 }
+>>>>>>> b71ccbc7a303b818bb26490476745a95e7d57650
