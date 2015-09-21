@@ -1,0 +1,25 @@
+nav div{	
+	padding: 0px;
+	display: inline;
+	float:left;
+	width:25%;
+	text-align: center;
+	line-height:65px;
+	background-color: #94DBFF;
+	transition: background-color, color, 1s;
+	color: #F2F2F2;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+nav div:hover{
+	color: #94DBFF;
+	background-color: #E1E1E1;
+
+}
+
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
