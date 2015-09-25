@@ -1,6 +1,6 @@
 #menu {
 	width: 100%;
-	height: 12rem;
+	padding-bottom: 14rem;
 }
 
 #logo {
@@ -40,15 +40,19 @@ img {
 	height: 100%;
 	}
 
- h1 {
- 	padding-top: 1rem;
+ h1, h3, h5, p, li {
  	color: white;
 }
+
+h3 {
+	margin-top: -10px;
+}
+
  span {
  	font-style: italic;
 }
 
- p {
+ #intro {
  	color: white;
  	font-size: 2.5rem;
 }
@@ -74,12 +78,28 @@ img {
 
     nav div {
     float:left;
-	width:24%;
+	width:24.53%;
 	height: 3rem;
 	margin-top: 0.5rem;
 	text-align: center;
 	line-height: 3rem;
+	margin-bottom: 2rem;
 	}	
 }
 
+@media (max-width: 500px) {
+	#menu {
+		padding-bottom: 18rem;
+	}
+
+	nav div {
+    float:left;
+	width:49.4%;
+	height: 3rem;
+	margin-top: 0.5rem;
+	margin-bottom: -0.6rem;
+	text-align: center;
+	line-height: 3rem;
+	}	
+}
 
