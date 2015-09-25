@@ -12,10 +12,10 @@
 nav div {
 	float:left;
 	width:20%;
-	height: 3rem;
-	margin-top: 5.5rem;
+	height: 4rem;
+	margin-top: 4.5rem;
 	text-align: center;
-	line-height: 3rem;
+	line-height: 4rem;
 	transition: background-color, color, 0.75s;
 	color: #F2F2F2;
 	font-family: 'Ubuntu Condensed', sans-serif;
@@ -38,7 +38,7 @@ nav a {
 img {
 	width: 100%;
 	height: 100%;
-	}
+}
 
  h1, h3, h5, p, li {
  	color: white;
@@ -69,37 +69,37 @@ h3 {
    	height: auto;
    	display: block;
    	margin: 0 auto;
-	}
+	}	
 
    #navwrapper {
    	width:100%;
    	float: left;
-   	}
+	}
 
     nav div {
     float:left;
 	width:24.53%;
-	height: 3rem;
+	height: 4rem;
 	margin-top: 0.5rem;
 	text-align: center;
-	line-height: 3rem;
+	line-height: 4rem;
 	margin-bottom: 2rem;
 	}	
 }
 
 @media (max-width: 500px) {
 	#menu {
-		padding-bottom: 18rem;
+		padding-bottom: 19rem;
 	}
 
 	nav div {
     float:left;
 	width:49.4%;
-	height: 3rem;
+	height: 4rem;
 	margin-top: 0.5rem;
 	margin-bottom: -0.6rem;
 	text-align: center;
-	line-height: 3rem;
+	line-height: 4rem;
 	}	
 }
 
